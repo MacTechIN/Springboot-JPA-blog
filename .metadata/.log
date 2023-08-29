@@ -1169,3 +1169,439 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 07:15:02.236
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.OlSUQoud => OK
+!SESSION 2023-08-25 08:25:35.691 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2023-08-25 08:25:47.024
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-25 08:25:47.024
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-25 08:25:47.024
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-25 08:25:47.024
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-25 08:25:47.025
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-25 08:25:47.025
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-25 08:25:47.025
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:15.908
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:15.908
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4821e1a3[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:15.939
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:16.663
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2023-08-25 08:26:17.129
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-25 08:26:17.129
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6cf58989,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a1dc432,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-25 08:26:18.026
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:29.176
+!MESSAGE Boot LS startup time from start to initialized: 13125ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:30.952
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AdpMjjJyisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:30.960
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:30.965
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:30.966
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:30.967
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:30.968
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AdpMjjJy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:31.018
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:31.031
+!MESSAGE buffering callback sts4.classpath.AdpMjjJy blog false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:31.032
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:31.034
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:31.035
+!MESSAGE buffering callback sts4.classpath.AdpMjjJy Hello false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:31.036
+!MESSAGE executing callback sts4.classpath.AdpMjjJy 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-25 08:26:33.045
+!MESSAGE executing callback sts4.classpath.AdpMjjJy FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-08-25 08:26:33.046
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-08-26 18:55:22.395 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2023-08-26 18:55:39.543
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-26 18:55:39.543
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-26 18:55:39.543
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-26 18:55:39.543
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-26 18:55:39.543
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-26 18:55:39.543
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-26 18:55:39.543
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:33.173
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:33.173
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@72e806[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:33.282
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-26 18:56:34.899
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:35.382
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:53.422
+!MESSAGE Boot LS startup time from start to initialized: 20092ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:55.231
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DXNBJAaaisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:55.250
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:55.256
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:55.258
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:55.258
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:55.259
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DXNBJAaa => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:55.306
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:55.313
+!MESSAGE buffering callback sts4.classpath.DXNBJAaa blog false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:55.314
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:55.318
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:55.319
+!MESSAGE buffering callback sts4.classpath.DXNBJAaa Hello false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:55.320
+!MESSAGE executing callback sts4.classpath.DXNBJAaa 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 18:56:57.329
+!MESSAGE executing callback sts4.classpath.DXNBJAaa FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-08-26 18:56:57.331
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2023-08-26 18:57:15.098
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-08-26 19:10:52.252
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jface 2 0 2023-08-26 20:03:24.661
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-26 20:03:24.661
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@261d2a45,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74d79748,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 20:41:21.707
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DXNBJAaa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 20:41:21.708
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.DXNBJAaa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 20:41:21.710
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-26 20:41:21.711
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DXNBJAaa => OK
+!SESSION 2023-08-29 19:44:34.322 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2023-08-29 19:44:45.224
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-29 19:44:45.224
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-29 19:44:45.224
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-29 19:44:45.224
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-29 19:44:45.224
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-29 19:44:45.224
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-29 19:44:45.224
+!MESSAGE Cannot bind to an undefined command: plug-in='com.github.intellijideakeymap4eclipse.plugin', id='org.eclipse.wst.jsdt.ui.edit.text.java.select.last'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:26.260
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:26.260
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5272119f[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:26.276
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:26.830
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-29 19:45:29.200
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Admin'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:40.563
+!MESSAGE Boot LS startup time from start to initialized: 14248ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:41.816
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xTCdeeUiisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:41.823
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:41.827
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:41.828
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:41.829
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xTCdeeUi => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:41.830
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:41.851
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:41.857
+!MESSAGE buffering callback sts4.classpath.xTCdeeUi blog false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:41.858
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:41.859
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:41.861
+!MESSAGE buffering callback sts4.classpath.xTCdeeUi Hello false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:41.861
+!MESSAGE executing callback sts4.classpath.xTCdeeUi 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-08-29 19:45:43.874
+!MESSAGE executing callback sts4.classpath.xTCdeeUi FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2023-08-29 19:45:43.875
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2023-08-29 20:42:21.480
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-08-29 20:50:27.339
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse-update-site/main/artifacts.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-08-29 20:50:28.019
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/IntelliJIdeaKeymap4Eclipse/IntelliJIdeaKeymap4Eclipse-update-site/main/content.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-08-29 20:50:43.213
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:44)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:915)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:344)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:193)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:342)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2023-08-29 20:50:43.221
+!MESSAGE Unexpected interrupt while waiting on ECF browse request
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.Semaphore.acquire(Semaphore.java:44)
+	at org.eclipse.core.internal.jobs.JobManager.join(JobManager.java:915)
+	at org.eclipse.core.internal.jobs.InternalJob.join(InternalJob.java:344)
+	at org.eclipse.core.runtime.jobs.Job.join(Job.java:531)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.waitOnSelf(FileInfoReader.java:74)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFiles(FileInfoReader.java:110)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getRemoteFile(FileInfoReader.java:125)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileInfoReader.getLastModified(FileInfoReader.java:130)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.getLastModified(RepositoryTransport.java:249)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.getLastModified(CacheManager.java:276)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:193)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:171)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:113)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:779)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:677)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.lambda$12(MarketplaceCatalog.java:342)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
